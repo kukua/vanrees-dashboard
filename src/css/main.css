@@ -1,0 +1,58 @@
+body {
+	overflow-y: scroll;
+}
+
+#app > div > .container {
+	margin-top: 6em;
+}
+
+.click-to-edit {
+	cursor: pointer;
+}
+.spacer {
+	height: 60px;
+}
+
+.fa.text-left {
+	margin-right: 10px;
+}
+.fa.text-right {
+	margin-left: 10px;
+}
+
+.title-container .btn-group {
+	margin-left: 10px;
+}
+
+.table > tbody > tr > td.actions {
+	padding: 2px;
+	min-width: 100px;
+}
+
+.btn-wide {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.tooltip {
+	font-size: 110%;
+}
+
+.alert {
+	font-size: 110%;
+}
+.notification-message h4 {
+	color: #fff;
+}
+
+.m-input-moment .fa-chevron-left:before { margin-left: -2px; }
+.m-input-moment .fa-chevron-right:before { margin-left: 4px; }
+
+.bootstrap-select-actions {
+	width: 100px !important;
+	margin-left: 4px !important;
+}
+
+.no-margin-top {
+	margin-top: 0;
+}

@@ -1,0 +1,9 @@
+export default {
+	stations: [
+		{
+			id: <station_no>,
+			name: '',
+			plantages: ['Tea plantage 1', ...],
+		}
+	},
+}
