@@ -161,10 +161,8 @@ class Dashboard extends React.Component {
 								onChange={this.onUDIDChange.bind(this)}>
 								<option>- Choose tea plantation -</option>
 								{config.stations.map((station, i) => (
-									<optgroup key={`${i}`} label={station.name}>
-									{station.plantages.map((plantage, j) => (
-										<option key={`${i}:${j}`} value={station.udid}>{plantage}</option>
-									))}
+									<optgroup key={`${i}`} label={station.title}>
+										<option value={station.udid}>{station.subtitle}</option>
 									</optgroup>
 								))}
 							</select>

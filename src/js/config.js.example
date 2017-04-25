@@ -3,9 +3,9 @@ export default {
 	authToken: '',
 	stations: [
 		{
-			udid: '',
-			name: '',
-			plantages: ['Tea plantage 1', ...],
+			udid: '<device id>',
+			title: '<city>',
+			subtitle: '<name> tea plantage',
 		}
 	},
 }
