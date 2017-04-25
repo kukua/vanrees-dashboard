@@ -1,7 +1,9 @@
 export default {
+	apiUrl: '',
+	authToken: '',
 	stations: [
 		{
-			id: <station_no>,
+			udid: '',
 			name: '',
 			plantages: ['Tea plantage 1', ...],
 		}
