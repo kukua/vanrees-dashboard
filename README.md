@@ -13,13 +13,13 @@ yarn install
 npm start
 
 # Staging
-docker-compose run --rm api yarn install
-docker-compose run --rm api npm run build
+docker-compose run --rm dashboard yarn install
+docker-compose run --rm dashboard npm run build
 docker-compose up -d
 
 # Production
-docker-compose run --rm api yarn install
-docker-compose run --rm api npm run build-prod
+docker-compose run --rm dashboard yarn install
+docker-compose run --rm dashboard npm run build-prod
 docker-compose up -d
 ```
 

@@ -1,5 +1,4 @@
 const path = require('path')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -30,9 +29,6 @@ module.exports = {
 		],
 	},
 	plugins: [
-		new CopyWebpackPlugin([
-			{ from: 'node_modules/react-notifications/lib/fonts', to: 'css/fonts/' },
-		]),
 		new HtmlWebpackPlugin({
 			template: './src/www/index.html',
 			filename: 'index.html',
